@@ -1,0 +1,103 @@
+body{
+    background-color: #F6F5F2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.bgImg{
+    height:200px;
+    width: 100%;
+    -float: left;
+    position: absolute;
+}
+
+.logo{
+    position: relative;
+    height:270px;
+    width:160px;
+    border:1px solid #dd893d;
+    float: right;
+    margin-right: 50px;
+    background-color: #dd893d;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 0px 15px 16px rgba(0,0,0,0.1);
+}
+
+.logo img{
+    bottom: 3%;
+    height: 130px;
+    width: 120px;
+    margin-left: 18px;
+}
+.title{
+    position: absolute;
+    margin-top: 200px;
+   
+}
+.title h3{
+    font-weight: bolder;
+    padding: 10px;
+}
+.title span{
+    font-size: 15px;
+    font-weight: lighter;
+}
+.about{
+    position: absolute;
+    margin-top: 300px;
+    padding: 10px;
+}
+
+.socialLink{
+    position:absolute;
+    margin-top: 430px;
+    height: 53px;
+    width: 100%;
+    text-align: center;
+}
+
+.socialLink i{
+    border-radius: 5px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: #dd893d;
+    color: white;
+}
+
+.openingHours{
+    position: absolute;
+    margin-top: 500px;
+    width: 100%;
+    padding: 10px;
+}
+.openingHours thead th{
+    text-align: center;
+    font-size: 20px;
+}
+
+.slider{
+    position: absolute;
+    margin-top: 870px;
+    padding: 10px;
+    text-align: center;
+}
+
+.scanner{
+    position: absolute;
+    margin-top: 1300px;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.scanner img{
+    height: 200px;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+
+}
+
+
